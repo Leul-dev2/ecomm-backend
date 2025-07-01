@@ -6,7 +6,6 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 import productRoutes from './routes/productRoutes.js';
-import authRoutes from './routes/authRoutes.js';
 
 dotenv.config();
 const app = express();
@@ -20,7 +19,6 @@ app.use(cors());
 app.use(express.json());
 
 // API Routes
-app.use('/api/auth', authRoutes);
 app.use('/api/products', productRoutes);
 
 // Test route
