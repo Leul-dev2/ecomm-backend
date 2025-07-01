@@ -1,0 +1,14 @@
+# Flutter (client)
+client/.dart_tool/
+client/.idea/
+client/.packages
+client/build/
+client/pubspec.lock
+
+# Node.js (server)
+server/node_modules/
+server/.env
+
+# General
+.DS_Store
+.env
